@@ -895,16 +895,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.19.0",
+            "version": "v9.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "bbce25bd823133f6a5a724f2d62680b711f1d0df"
+                "reference": "c99868f1c9bf2f5d250993121838db905591864f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/bbce25bd823133f6a5a724f2d62680b711f1d0df",
-                "reference": "bbce25bd823133f6a5a724f2d62680b711f1d0df",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/c99868f1c9bf2f5d250993121838db905591864f",
+                "reference": "c99868f1c9bf2f5d250993121838db905591864f",
                 "shasum": ""
             },
             "require": {
@@ -1070,7 +1070,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-06-28T14:33:19+00:00"
+            "time": "2022-07-13T13:26:22+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -5417,16 +5417,16 @@
         },
         {
             "name": "laravel/pint",
-            "version": "v0.2.3",
+            "version": "v0.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/pint.git",
-                "reference": "d0829631687c1238abdd660daac3d7218254b65c"
+                "reference": "45c9fe899abfeeb7794c5a8c4074c140250a84c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/d0829631687c1238abdd660daac3d7218254b65c",
-                "reference": "d0829631687c1238abdd660daac3d7218254b65c",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/45c9fe899abfeeb7794c5a8c4074c140250a84c2",
+                "reference": "45c9fe899abfeeb7794c5a8c4074c140250a84c2",
                 "shasum": ""
             },
             "require": {
@@ -5479,7 +5479,7 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2022-07-04T16:04:06+00:00"
+            "time": "2022-07-13T17:57:52+00:00"
         },
         {
             "name": "laravel/sail",

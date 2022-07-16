@@ -41,6 +41,15 @@ trait HasRoles
         return in_array($role, $roles);
     }
 
+    public function hasAnyRole(...$roles): bool
+    {
+        $user_roles = $this->getRoleNames();
+
+        $result = array_intersect($roles, $user_roles);
+
+        return count($result) > 0;
+    }
+
     public function getKeyRoles(...$roles): array
     {
         $roles = collect($roles)->flatten()->reduce(function ($array, $role) {

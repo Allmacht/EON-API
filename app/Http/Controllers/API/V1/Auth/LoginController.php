@@ -5,9 +5,8 @@ namespace App\Http\Controllers\API\V1\Auth;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\LoginRequest;
 use App\Models\User;
+use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\JsonResponse;
-use Illuminate\Support\Facades\Hash;
-use Illuminate\Validation\ValidationException;
 
 class LoginController extends Controller
 {
@@ -15,10 +14,8 @@ class LoginController extends Controller
     {
         $user = User::whereEmail($request->safe()->email)->first();
 
-        if (! $user || ! Hash::check($request->safe()->password, $user->password)) {
-            throw ValidationException::withMessages([
-                'email' => ['The provided credentials are incorrect.'],
-            ]);
+        if (! $user || ! auth()->attempt($request->safe()->only('email', 'password'))) {
+            throw new AuthenticationException();
         }
 
         $user->tokens()->delete();

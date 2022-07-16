@@ -23,9 +23,9 @@ return new class extends Migration
             $table->string('neighborhood')->nullable();
             $table->string('street');
             $table->integer('ext_number');
-            $table->string('int_number');
+            $table->string('int_number')->nullable();
             $table->integer('zipcode');
-            $table->string('phone');
+            $table->string('phone')->nullable();
 
             $table->softDeletes();
             $table->timestamps();
