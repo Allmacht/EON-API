@@ -12,8 +12,15 @@ class UserRepository implements UserRepositoryInterface
         return User::findOrfail($id);
     }
 
-    public function update(string $id, array $params)
+    public function update(string $id, array $params): bool
     {
         User::find($id)->update($params);
+
+        return true;
+    }
+
+    public function getUserByEmail(string $email): User
+    {
+        return User::whereEmail($email)->first();
     }
 }

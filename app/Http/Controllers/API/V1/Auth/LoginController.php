@@ -4,15 +4,22 @@ namespace App\Http\Controllers\API\V1\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\LoginRequest;
-use App\Models\User;
+use App\Interfaces\UserRepositoryInterface;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Http\JsonResponse;
 
 class LoginController extends Controller
 {
+    private UserRepositoryInterface $userRepository;
+
+    public function __construct(UserRepositoryInterface $userRepository)
+    {
+        $this->userRepository = $userRepository;
+    }
+
     public function __invoke(LoginRequest $request): JsonResponse
     {
-        $user = User::whereEmail($request->safe()->email)->first();
+        $user = $this->userRepository->getUserByEmail($request->safe()->email);
 
         if (! $user || ! auth()->attempt($request->safe()->only('email', 'password'))) {
             throw new AuthenticationException();

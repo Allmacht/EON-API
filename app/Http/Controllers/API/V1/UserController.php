@@ -17,6 +17,12 @@ class UserController extends Controller
         $this->userRepository = $userRepository;
     }
 
+    /**
+     * return the logged in user.
+     *
+     * @param  Illuminate\Http\Request
+     * @return App\Http\Resources\User\UserResource
+     */
     public function user(Request $request): UserResource
     {
         $user = $this->userRepository->me($request->user()->id);
@@ -24,10 +30,18 @@ class UserController extends Controller
         return new UserResource($user);
     }
 
+    /**
+     * update the user's current warehouse.
+     *
+     * @param  App\Http\Requests\User\UpdateWarehouseRequest
+     * @return App\Http\Resources\User\UserResource
+     */
     public function updateWarehouse(UpdateWarehouseRequest $request): UserResource
     {
-        $this->userRepository->update($request->user()->id, $request->safe()->all());
+        $this->userRepository->update($request->user()->id, $request->safe()->only('warehouse_id'));
 
-        return self::user($request);
+        $user = $this->userRepository->me($request->user()->id);
+
+        return new UserResource($user);
     }
 }

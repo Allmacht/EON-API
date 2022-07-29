@@ -16,7 +16,7 @@ class WarehouseResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'name' => ucfirst(strtolower($this->name)),
+            'name' => $this->name,
             'slug' => $this->slug,
             'country' => $this->country,
             'state' => $this->state,
@@ -28,7 +28,9 @@ class WarehouseResource extends JsonResource
             'zipcode' => $this->zipcode,
             'address' => "{$this->street} {$this->ext_number} {$this->neighborhood} {$this->ext_number}",
             'phone' => $this->phone,
-            'created_at' => $this->created_at->format('M d, Y h:i A')
+            'map' => $this->map,
+            'created_at' => $this->created_at->format('M d, Y h:i A'),
+            'updated_at' => $this->updated_at->format('M d, Y h:i A'),
         ];
     }
 }

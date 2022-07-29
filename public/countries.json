@@ -1,0 +1,2252 @@
+[
+  {
+    "id": 1,
+    "name": "Afghanistan",
+    "es": "Afganistán",
+    "iso3": "AFG",
+    "iso2": "AF",
+    "currency": "AFN",
+    "emoji": "🇦🇫"
+  },
+  {
+    "id": 2,
+    "name": "Aland Islands",
+    "es": "Alandia",
+    "iso3": "ALA",
+    "iso2": "AX",
+    "currency": "EUR",
+    "emoji": "🇦🇽"
+  },
+  {
+    "id": 3,
+    "name": "Albania",
+    "es": "Albania",
+    "iso3": "ALB",
+    "iso2": "AL",
+    "currency": "ALL",
+    "emoji": "🇦🇱"
+  },
+  {
+    "id": 4,
+    "name": "Algeria",
+    "es": "Argelia",
+    "iso3": "DZA",
+    "iso2": "DZ",
+    "currency": "DZD",
+    "emoji": "🇩🇿"
+  },
+  {
+    "id": 5,
+    "name": "American Samoa",
+    "es": "Samoa Americana",
+    "iso3": "ASM",
+    "iso2": "AS",
+    "currency": "USD",
+    "emoji": "🇦🇸"
+  },
+  {
+    "id": 6,
+    "name": "Andorra",
+    "es": "Andorra",
+    "iso3": "AND",
+    "iso2": "AD",
+    "currency": "EUR",
+    "emoji": "🇦🇩"
+  },
+  {
+    "id": 7,
+    "name": "Angola",
+    "es": "Angola",
+    "iso3": "AGO",
+    "iso2": "AO",
+    "currency": "AOA",
+    "emoji": "🇦🇴"
+  },
+  {
+    "id": 8,
+    "name": "Anguilla",
+    "es": "Anguilla",
+    "iso3": "AIA",
+    "iso2": "AI",
+    "currency": "XCD",
+    "emoji": "🇦🇮"
+  },
+  {
+    "id": 9,
+    "name": "Antarctica",
+    "es": "Antártida",
+    "iso3": "ATA",
+    "iso2": "AQ",
+    "currency": "AAD",
+    "emoji": "🇦🇶"
+  },
+  {
+    "id": 10,
+    "name": "Antigua And Barbuda",
+    "es": "Antigua y Barbuda",
+    "iso3": "ATG",
+    "iso2": "AG",
+    "currency": "XCD",
+    "emoji": "🇦🇬"
+  },
+  {
+    "id": 11,
+    "name": "Argentina",
+    "es": "Argentina",
+    "iso3": "ARG",
+    "iso2": "AR",
+    "currency": "ARS",
+    "emoji": "🇦🇷"
+  },
+  {
+    "id": 12,
+    "name": "Armenia",
+    "es": "Armenia",
+    "iso3": "ARM",
+    "iso2": "AM",
+    "currency": "AMD",
+    "emoji": "🇦🇲"
+  },
+  {
+    "id": 13,
+    "name": "Aruba",
+    "es": "Aruba",
+    "iso3": "ABW",
+    "iso2": "AW",
+    "currency": "AWG",
+    "emoji": "🇦🇼"
+  },
+  {
+    "id": 14,
+    "name": "Australia",
+    "es": "Australia",
+    "iso3": "AUS",
+    "iso2": "AU",
+    "currency": "AUD",
+    "emoji": "🇦🇺"
+  },
+  {
+    "id": 15,
+    "name": "Austria",
+    "es": "Austria",
+    "iso3": "AUT",
+    "iso2": "AT",
+    "currency": "EUR",
+    "emoji": "🇦🇹"
+  },
+  {
+    "id": 16,
+    "name": "Azerbaijan",
+    "es": "Azerbaiyán",
+    "iso3": "AZE",
+    "iso2": "AZ",
+    "currency": "AZN",
+    "emoji": "🇦🇿"
+  },
+  {
+    "id": 18,
+    "name": "Bahrain",
+    "es": "Bahrein",
+    "iso3": "BHR",
+    "iso2": "BH",
+    "currency": "BHD",
+    "emoji": "🇧🇭"
+  },
+  {
+    "id": 19,
+    "name": "Bangladesh",
+    "es": "Bangladesh",
+    "iso3": "BGD",
+    "iso2": "BD",
+    "currency": "BDT",
+    "emoji": "🇧🇩"
+  },
+  {
+    "id": 20,
+    "name": "Barbados",
+    "es": "Barbados",
+    "iso3": "BRB",
+    "iso2": "BB",
+    "currency": "BBD",
+    "emoji": "🇧🇧"
+  },
+  {
+    "id": 21,
+    "name": "Belarus",
+    "es": "Bielorrusia",
+    "iso3": "BLR",
+    "iso2": "BY",
+    "currency": "BYN",
+    "emoji": "🇧🇾"
+  },
+  {
+    "id": 22,
+    "name": "Belgium",
+    "es": "Bélgica",
+    "iso3": "BEL",
+    "iso2": "BE",
+    "currency": "EUR",
+    "emoji": "🇧🇪"
+  },
+  {
+    "id": 23,
+    "name": "Belize",
+    "es": "Belice",
+    "iso3": "BLZ",
+    "iso2": "BZ",
+    "currency": "BZD",
+    "emoji": "🇧🇿"
+  },
+  {
+    "id": 24,
+    "name": "Benin",
+    "es": "Benín",
+    "iso3": "BEN",
+    "iso2": "BJ",
+    "currency": "XOF",
+    "emoji": "🇧🇯"
+  },
+  {
+    "id": 25,
+    "name": "Bermuda",
+    "es": "Bermudas",
+    "iso3": "BMU",
+    "iso2": "BM",
+    "currency": "BMD",
+    "emoji": "🇧🇲"
+  },
+  {
+    "id": 26,
+    "name": "Bhutan",
+    "es": "Bután",
+    "iso3": "BTN",
+    "iso2": "BT",
+    "currency": "BTN",
+    "emoji": "🇧🇹"
+  },
+  {
+    "id": 27,
+    "name": "Bolivia",
+    "es": "Bolivia",
+    "iso3": "BOL",
+    "iso2": "BO",
+    "currency": "BOB",
+    "emoji": "🇧🇴"
+  },
+  {
+    "id": 155,
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "es": "Caribe Neerlandés",
+    "iso3": "BES",
+    "iso2": "BQ",
+    "currency": "USD",
+    "emoji": "🇧🇶"
+  },
+  {
+    "id": 28,
+    "name": "Bosnia and Herzegovina",
+    "es": "Bosnia y Herzegovina",
+    "iso3": "BIH",
+    "iso2": "BA",
+    "currency": "BAM",
+    "emoji": "🇧🇦"
+  },
+  {
+    "id": 29,
+    "name": "Botswana",
+    "es": "Botswana",
+    "iso3": "BWA",
+    "iso2": "BW",
+    "currency": "BWP",
+    "emoji": "🇧🇼"
+  },
+  {
+    "id": 30,
+    "name": "Bouvet Island",
+    "es": "Isla Bouvet",
+    "iso3": "BVT",
+    "iso2": "BV",
+    "currency": "NOK",
+    "emoji": "🇧🇻"
+  },
+  {
+    "id": 31,
+    "name": "Brazil",
+    "es": "Brasil",
+    "iso3": "BRA",
+    "iso2": "BR",
+    "currency": "BRL",
+    "emoji": "🇧🇷"
+  },
+  {
+    "id": 32,
+    "name": "British Indian Ocean Territory",
+    "es": "Territorio Británico del Océano Índico",
+    "iso3": "IOT",
+    "iso2": "IO",
+    "currency": "USD",
+    "emoji": "🇮🇴"
+  },
+  {
+    "id": 33,
+    "name": "Brunei",
+    "es": "Brunei",
+    "iso3": "BRN",
+    "iso2": "BN",
+    "currency": "BND",
+    "emoji": "🇧🇳"
+  },
+  {
+    "id": 34,
+    "name": "Bulgaria",
+    "es": "Bulgaria",
+    "iso3": "BGR",
+    "iso2": "BG",
+    "currency": "BGN",
+    "emoji": "🇧🇬"
+  },
+  {
+    "id": 35,
+    "name": "Burkina Faso",
+    "es": "Burkina Faso",
+    "iso3": "BFA",
+    "iso2": "BF",
+    "currency": "XOF",
+    "emoji": "🇧🇫"
+  },
+  {
+    "id": 36,
+    "name": "Burundi",
+    "es": "Burundi",
+    "iso3": "BDI",
+    "iso2": "BI",
+    "currency": "BIF",
+    "emoji": "🇧🇮"
+  },
+  {
+    "id": 37,
+    "name": "Cambodia",
+    "es": "Camboya",
+    "iso3": "KHM",
+    "iso2": "KH",
+    "currency": "KHR",
+    "emoji": "🇰🇭"
+  },
+  {
+    "id": 38,
+    "name": "Cameroon",
+    "es": "Camerún",
+    "iso3": "CMR",
+    "iso2": "CM",
+    "currency": "XAF",
+    "emoji": "🇨🇲"
+  },
+  {
+    "id": 39,
+    "name": "Canada",
+    "es": "Canadá",
+    "iso3": "CAN",
+    "iso2": "CA",
+    "currency": "CAD",
+    "emoji": "🇨🇦"
+  },
+  {
+    "id": 40,
+    "name": "Cape Verde",
+    "es": "Cabo Verde",
+    "iso3": "CPV",
+    "iso2": "CV",
+    "currency": "CVE",
+    "emoji": "🇨🇻"
+  },
+  {
+    "id": 41,
+    "name": "Cayman Islands",
+    "es": "Islas Caimán",
+    "iso3": "CYM",
+    "iso2": "KY",
+    "currency": "KYD",
+    "emoji": "🇰🇾"
+  },
+  {
+    "id": 42,
+    "name": "Central African Republic",
+    "es": "República Centroafricana",
+    "iso3": "CAF",
+    "iso2": "CF",
+    "currency": "XAF",
+    "emoji": "🇨🇫"
+  },
+  {
+    "id": 43,
+    "name": "Chad",
+    "es": "Chad",
+    "iso3": "TCD",
+    "iso2": "TD",
+    "currency": "XAF",
+    "emoji": "🇹🇩"
+  },
+  {
+    "id": 44,
+    "name": "Chile",
+    "es": "Chile",
+    "iso3": "CHL",
+    "iso2": "CL",
+    "currency": "CLP",
+    "emoji": "🇨🇱"
+  },
+  {
+    "id": 45,
+    "name": "China",
+    "es": "China",
+    "iso3": "CHN",
+    "iso2": "CN",
+    "currency": "CNY",
+    "emoji": "🇨🇳"
+  },
+  {
+    "id": 46,
+    "name": "Christmas Island",
+    "es": "Isla de Navidad",
+    "iso3": "CXR",
+    "iso2": "CX",
+    "currency": "AUD",
+    "emoji": "🇨🇽"
+  },
+  {
+    "id": 47,
+    "name": "Cocos (Keeling) Islands",
+    "es": "Islas Cocos o Islas Keeling",
+    "iso3": "CCK",
+    "iso2": "CC",
+    "currency": "AUD",
+    "emoji": "🇨🇨"
+  },
+  {
+    "id": 48,
+    "name": "Colombia",
+    "es": "Colombia",
+    "iso3": "COL",
+    "iso2": "CO",
+    "currency": "COP",
+    "emoji": "🇨🇴"
+  },
+  {
+    "id": 49,
+    "name": "Comoros",
+    "es": "Comoras",
+    "iso3": "COM",
+    "iso2": "KM",
+    "currency": "KMF",
+    "emoji": "🇰🇲"
+  },
+  {
+    "id": 50,
+    "name": "Congo",
+    "es": "Congo",
+    "iso3": "COG",
+    "iso2": "CG",
+    "currency": "XAF",
+    "emoji": "🇨🇬"
+  },
+  {
+    "id": 52,
+    "name": "Cook Islands",
+    "es": "Islas Cook",
+    "iso3": "COK",
+    "iso2": "CK",
+    "currency": "NZD",
+    "emoji": "🇨🇰"
+  },
+  {
+    "id": 53,
+    "name": "Costa Rica",
+    "es": "Costa Rica",
+    "iso3": "CRI",
+    "iso2": "CR",
+    "currency": "CRC",
+    "emoji": "🇨🇷"
+  },
+  {
+    "id": 54,
+    "name": "Cote D'Ivoire (Ivory Coast)",
+    "es": "Costa de Marfil",
+    "iso3": "CIV",
+    "iso2": "CI",
+    "currency": "XOF",
+    "emoji": "🇨🇮"
+  },
+  {
+    "id": 55,
+    "name": "Croatia",
+    "es": "Croacia",
+    "iso3": "HRV",
+    "iso2": "HR",
+    "currency": "HRK",
+    "emoji": "🇭🇷"
+  },
+  {
+    "id": 56,
+    "name": "Cuba",
+    "es": "Cuba",
+    "iso3": "CUB",
+    "iso2": "CU",
+    "currency": "CUP",
+    "emoji": "🇨🇺"
+  },
+  {
+    "id": 249,
+    "name": "Curaçao",
+    "es": "Curazao", 
+    "iso3": "CUW",
+    "iso2": "CW",
+    "currency": "ANG",
+    "emoji": "🇨🇼"
+  },
+  {
+    "id": 57,
+    "name": "Cyprus",
+    "es": "Chipre",
+    "iso3": "CYP",
+    "iso2": "CY",
+    "currency": "EUR",
+    "emoji": "🇨🇾"
+  },
+  {
+    "id": 58,
+    "name": "Czech Republic",
+    "es": "República Checa",
+    "iso3": "CZE",
+    "iso2": "CZ",
+    "currency": "CZK",
+    "emoji": "🇨🇿"
+  },
+  {
+    "id": 51,
+    "name": "Democratic Republic of the Congo",
+    "es": "Congo (Rep. Dem.)",
+    "iso3": "COD",
+    "iso2": "CD",
+    "currency": "CDF",
+    "emoji": "🇨🇩"
+  },
+  {
+    "id": 59,
+    "name": "Denmark",
+    "es": "Dinamarca",
+    "iso3": "DNK",
+    "iso2": "DK",
+    "currency": "DKK",
+    "emoji": "🇩🇰"
+  },
+  {
+    "id": 60,
+    "name": "Djibouti",
+    "es": "Yibuti",
+    "iso3": "DJI",
+    "iso2": "DJ",
+    "currency": "DJF",
+    "emoji": "🇩🇯"
+  },
+  {
+    "id": 61,
+    "name": "Dominica",
+    "es": "Dominica",
+    "iso3": "DMA",
+    "iso2": "DM",
+    "currency": "XCD",
+    "emoji": "🇩🇲"
+  },
+  {
+    "id": 62,
+    "name": "Dominican Republic",
+    "es": "República Dominicana",
+    "iso3": "DOM",
+    "iso2": "DO",
+    "currency": "DOP",
+    "emoji": "🇩🇴"
+  },
+  {
+    "id": 63,
+    "name": "East Timor",
+    "es": "Timor Oriental",
+    "iso3": "TLS",
+    "iso2": "TL",
+    "currency": "USD",
+    "emoji": "🇹🇱"
+  },
+  {
+    "id": 64,
+    "name": "Ecuador",
+    "es": "Ecuador",
+    "iso3": "ECU",
+    "iso2": "EC",
+    "currency": "USD",
+    "emoji": "🇪🇨"
+  },
+  {
+    "id": 65,
+    "name": "Egypt",
+    "es": "Egipto",
+    "iso3": "EGY",
+    "iso2": "EG",
+    "currency": "EGP",
+    "emoji": "🇪🇬"
+  },
+  {
+    "id": 66,
+    "name": "El Salvador",
+    "es": "El Salvador",
+    "iso3": "SLV",
+    "iso2": "SV",
+    "currency": "USD",
+    "emoji": "🇸🇻"
+  },
+  {
+    "id": 67,
+    "name": "Equatorial Guinea",
+    "es": "Guinea Ecuatorial",
+    "iso3": "GNQ",
+    "iso2": "GQ",
+    "currency": "XAF",
+    "emoji": "🇬🇶"
+  },
+  {
+    "id": 68,
+    "name": "Eritrea",
+    "es": "Eritrea",
+    "iso3": "ERI",
+    "iso2": "ER",
+    "currency": "ERN",
+    "emoji": "🇪🇷"
+  },
+  {
+    "id": 69,
+    "name": "Estonia",
+    "es": "Estonia",
+    "iso3": "EST",
+    "iso2": "EE",
+    "currency": "EUR",
+    "emoji": "🇪🇪"
+  },
+  {
+    "id": 70,
+    "name": "Ethiopia",
+    "es": "Etiopía",
+    "iso3": "ETH",
+    "iso2": "ET",
+    "currency": "ETB",
+    "emoji": "🇪🇹"
+  },
+  {
+    "id": 71,
+    "name": "Falkland Islands",
+    "es": "Islas Malvinas",
+    "iso3": "FLK",
+    "iso2": "FK",
+    "currency": "FKP",
+    "emoji": "🇫🇰"
+  },
+  {
+    "id": 72,
+    "name": "Faroe Islands",
+    "es": "Islas Faroe",
+    "iso3": "FRO",
+    "iso2": "FO",
+    "currency": "DKK",
+    "emoji": "🇫🇴"
+  },
+  {
+    "id": 73,
+    "name": "Fiji Islands",
+    "es": "Fiyi",
+    "iso3": "FJI",
+    "iso2": "FJ",
+    "currency": "FJD",
+    "emoji": "🇫🇯"
+  },
+  {
+    "id": 74,
+    "name": "Finland",
+    "es": "Finlandia",
+    "iso3": "FIN",
+    "iso2": "FI",
+    "currency": "EUR",
+    "emoji": "🇫🇮"
+  },
+  {
+    "id": 75,
+    "name": "France",
+    "es": "Francia",
+    "iso3": "FRA",
+    "iso2": "FR",
+    "currency": "EUR",
+    "emoji": "🇫🇷"
+  },
+  {
+    "id": 76,
+    "name": "French Guiana",
+    "es": "Guayana Francesa",
+    "iso3": "GUF",
+    "iso2": "GF",
+    "currency": "EUR",
+    "emoji": "🇬🇫"
+  },
+  {
+    "id": 77,
+    "name": "French Polynesia",
+    "es": "Polinesia Francesa",
+    "iso3": "PYF",
+    "iso2": "PF",
+    "currency": "XPF",
+    "emoji": "🇵🇫"
+  },
+  {
+    "id": 78,
+    "name": "French Southern Territories",
+    "es": "Tierras Australes y Antárticas Francesas",
+    "iso3": "ATF",
+    "iso2": "TF",
+    "currency": "EUR",
+    "emoji": "🇹🇫"
+  },
+  {
+    "id": 79,
+    "name": "Gabon",
+    "es": "Gabón",
+    "iso3": "GAB",
+    "iso2": "GA",
+    "currency": "XAF",
+    "emoji": "🇬🇦"
+  },
+  {
+    "id": 80,
+    "name": "Gambia The",
+    "es": "Gambia",
+    "iso3": "GMB",
+    "iso2": "GM",
+    "currency": "GMD",
+    "emoji": "🇬🇲"
+  },
+  {
+    "id": 81,
+    "name": "Georgia",
+    "es": "Georgia",
+    "iso3": "GEO",
+    "iso2": "GE",
+    "currency": "GEL",
+    "emoji": "🇬🇪"
+  },
+  {
+    "id": 82,
+    "name": "Germany",
+    "es": "Alemania",
+    "iso3": "DEU",
+    "iso2": "DE",
+    "currency": "EUR",
+    "emoji": "🇩🇪"
+  },
+  {
+    "id": 83,
+    "name": "Ghana",
+    "es": "Ghana",
+    "iso3": "GHA",
+    "iso2": "GH",
+    "currency": "GHS",
+    "emoji": "🇬🇭"
+  },
+  {
+    "id": 84,
+    "name": "Gibraltar",
+    "es": "Gibraltar",
+    "iso3": "GIB",
+    "iso2": "GI",
+    "currency": "GIP",
+    "emoji": "🇬🇮"
+  },
+  {
+    "id": 85,
+    "name": "Greece",
+    "es": "Grecia",
+    "iso3": "GRC",
+    "iso2": "GR",
+    "currency": "EUR",
+    "emoji": "🇬🇷"
+  },
+  {
+    "id": 86,
+    "name": "Greenland",
+    "es": "Groenlandia",
+    "iso3": "GRL",
+    "iso2": "GL",
+    "currency": "DKK",
+    "emoji": "🇬🇱"
+  },
+  {
+    "id": 87,
+    "name": "Grenada",
+    "es": "Grenada",
+    "iso3": "GRD",
+    "iso2": "GD",
+    "currency": "XCD",
+    "emoji": "🇬🇩"
+  },
+  {
+    "id": 88,
+    "name": "Guadeloupe",
+    "es": "Guadalupe",
+    "iso3": "GLP",
+    "iso2": "GP",
+    "currency": "EUR",
+    "emoji": "🇬🇵"
+  },
+  {
+    "id": 89,
+    "name": "Guam",
+    "es": "Guam",
+    "iso3": "GUM",
+    "iso2": "GU",
+    "currency": "USD",
+    "emoji": "🇬🇺"
+  },
+  {
+    "id": 90,
+    "name": "Guatemala",
+    "es": "Guatemala",
+    "iso3": "GTM",
+    "iso2": "GT",
+    "currency": "GTQ",
+    "emoji": "🇬🇹"
+  },
+  {
+    "id": 91,
+    "name": "Guernsey and Alderney",
+    "es": "Guernsey",
+    "iso3": "GGY",
+    "iso2": "GG",
+    "currency": "GBP",
+    "emoji": "🇬🇬"
+  },
+  {
+    "id": 92,
+    "name": "Guinea",
+    "es": "Guinea",
+    "iso3": "GIN",
+    "iso2": "GN",
+    "currency": "GNF",
+    "emoji": "🇬🇳"
+  },
+  {
+    "id": 93,
+    "name": "Guinea-Bissau",
+    "es": "Guinea-Bisáu",
+    "iso3": "GNB",
+    "iso2": "GW",
+    "currency": "XOF",
+    "emoji": "🇬🇼"
+  },
+  {
+    "id": 94,
+    "name": "Guyana",
+    "es": "Guyana",
+    "iso3": "GUY",
+    "iso2": "GY",
+    "currency": "GYD",
+    "emoji": "🇬🇾"
+  },
+  {
+    "id": 95,
+    "name": "Haiti",
+    "es": "Haiti",
+    "iso3": "HTI",
+    "iso2": "HT",
+    "currency": "HTG",
+    "emoji": "🇭🇹"
+  },
+  {
+    "id": 96,
+    "name": "Heard Island and McDonald Islands",
+    "es": "Islas Heard y McDonald",
+    "iso3": "HMD",
+    "iso2": "HM",
+    "currency": "AUD",
+    "emoji": "🇭🇲"
+  },
+  {
+    "id": 97,
+    "name": "Honduras",
+    "es": "Honduras",
+    "iso3": "HND",
+    "iso2": "HN",
+    "currency": "HNL",
+    "emoji": "🇭🇳"
+  },
+  {
+    "id": 98,
+    "name": "Hong Kong S.A.R.",
+    "es": "Hong Kong",
+    "iso3": "HKG",
+    "iso2": "HK",
+    "currency": "HKD",
+    "emoji": "🇭🇰"
+  },
+  {
+    "id": 99,
+    "name": "Hungary",
+    "es": "Hungría",
+    "iso3": "HUN",
+    "iso2": "HU",
+    "currency": "HUF",
+    "emoji": "🇭🇺"
+  },
+  {
+    "id": 100,
+    "name": "Iceland",
+    "es": "Islandia",
+    "iso3": "ISL",
+    "iso2": "IS",
+    "currency": "ISK",
+    "emoji": "🇮🇸"
+  },
+  {
+    "id": 101,
+    "name": "India",
+    "es": "India",
+    "iso3": "IND",
+    "iso2": "IN",
+    "currency": "INR",
+    "emoji": "🇮🇳"
+  },
+  {
+    "id": 102,
+    "name": "Indonesia",
+    "es": "Indonesia",
+    "iso3": "IDN",
+    "iso2": "ID",
+    "currency": "IDR",
+    "emoji": "🇮🇩"
+  },
+  {
+    "id": 103,
+    "name": "Iran",
+    "es": "Iran",
+    "iso3": "IRN",
+    "iso2": "IR",
+    "currency": "IRR",
+    "emoji": "🇮🇷"
+  },
+  {
+    "id": 104,
+    "name": "Iraq",
+    "es": "Irak",
+    "iso3": "IRQ",
+    "iso2": "IQ",
+    "currency": "IQD",
+    "emoji": "🇮🇶"
+  },
+  {
+    "id": 105,
+    "name": "Ireland",
+    "es": "Irlanda",
+    "iso3": "IRL",
+    "iso2": "IE",
+    "currency": "EUR",
+    "emoji": "🇮🇪"
+  },
+  {
+    "id": 106,
+    "name": "Israel",
+    "es": "Israel",
+    "iso3": "ISR",
+    "iso2": "IL",
+    "currency": "ILS",
+    "emoji": "🇮🇱"
+  },
+  {
+    "id": 107,
+    "name": "Italy",
+    "es": "Italia",
+    "iso3": "ITA",
+    "iso2": "IT",
+    "currency": "EUR",
+    "emoji": "🇮🇹"
+  },
+  {
+    "id": 108,
+    "name": "Jamaica",
+    "es": "Jamaica",
+    "iso3": "JAM",
+    "iso2": "JM",
+    "currency": "JMD",
+    "emoji": "🇯🇲"
+  },
+  {
+    "id": 109,
+    "name": "Japan",
+    "es": "Japón",
+    "iso3": "JPN",
+    "iso2": "JP",
+    "currency": "JPY",
+    "emoji": "🇯🇵"
+  },
+  {
+    "id": 110,
+    "name": "Jersey",
+    "es": "Jersey",
+    "iso3": "JEY",
+    "iso2": "JE",
+    "currency": "GBP",
+    "emoji": "🇯🇪"
+  },
+  {
+    "id": 111,
+    "name": "Jordan",
+    "es": "Jordania",
+    "iso3": "JOR",
+    "iso2": "JO",
+    "currency": "JOD",
+    "emoji": "🇯🇴"
+  },
+  {
+    "id": 112,
+    "name": "Kazakhstan",
+    "es": "Kazajistán",
+    "iso3": "KAZ",
+    "iso2": "KZ",
+    "currency": "KZT",
+    "emoji": "🇰🇿"
+  },
+  {
+    "id": 113,
+    "name": "Kenya",
+    "es": "Kenia",
+    "iso3": "KEN",
+    "iso2": "KE",
+    "currency": "KES",
+    "emoji": "🇰🇪"
+  },
+  {
+    "id": 114,
+    "name": "Kiribati",
+    "es": "Kiribati",
+    "iso3": "KIR",
+    "iso2": "KI",
+    "currency": "AUD",
+    "emoji": "🇰🇮"
+  },
+  {
+    "id": 248,
+    "name": "Kosovo",
+    "es" :"Kosovo",
+    "iso3": "XKX",
+    "iso2": "XK",
+    "currency": "EUR",
+    "emoji": "🇽🇰"
+  },
+  {
+    "id": 117,
+    "name": "Kuwait",
+    "es": "Kuwait",
+    "iso3": "KWT",
+    "iso2": "KW",
+    "currency": "KWD",
+    "emoji": "🇰🇼"
+  },
+  {
+    "id": 118,
+    "name": "Kyrgyzstan",
+    "es": "Kirguizistán",
+    "iso3": "KGZ",
+    "iso2": "KG",
+    "currency": "KGS",
+    "emoji": "🇰🇬"
+  },
+  {
+    "id": 119,
+    "name": "Laos",
+    "es": "Laos",
+    "iso3": "LAO",
+    "iso2": "LA",
+    "currency": "LAK",
+    "emoji": "🇱🇦"
+  },
+  {
+    "id": 120,
+    "name": "Latvia",
+    "es": "Letonia",
+    "iso3": "LVA",
+    "iso2": "LV",
+    "currency": "EUR",
+    "emoji": "🇱🇻"
+  },
+  {
+    "id": 121,
+    "name": "Lebanon",
+    "es": "Líbano",
+    "iso3": "LBN",
+    "iso2": "LB",
+    "currency": "LBP",
+    "emoji": "🇱🇧"
+  },
+  {
+    "id": 122,
+    "name": "Lesotho",
+    "es": "Lesotho",
+    "iso3": "LSO",
+    "iso2": "LS",
+    "currency": "LSL",
+    "emoji": "🇱🇸"
+  },
+  {
+    "id": 123,
+    "name": "Liberia",
+    "es": "Liberia",
+    "iso3": "LBR",
+    "iso2": "LR",
+    "currency": "LRD",
+    "emoji": "🇱🇷"
+  },
+  {
+    "id": 124,
+    "name": "Libya",
+    "es": "Libia",
+    "iso3": "LBY",
+    "iso2": "LY",
+    "currency": "LYD",
+    "emoji": "🇱🇾"
+  },
+  {
+    "id": 125,
+    "name": "Liechtenstein",
+    "es": "Liechtenstein",
+    "iso3": "LIE",
+    "iso2": "LI",
+    "currency": "CHF",
+    "emoji": "🇱🇮"
+  },
+  {
+    "id": 126,
+    "name": "Lithuania",
+    "es": "Lituania",
+    "iso3": "LTU",
+    "iso2": "LT",
+    "currency": "EUR",
+    "emoji": "🇱🇹"
+  },
+  {
+    "id": 127,
+    "name": "Luxembourg",
+    "es": "Luxemburgo",
+    "iso3": "LUX",
+    "iso2": "LU",
+    "currency": "EUR",
+    "emoji": "🇱🇺"
+  },
+  {
+    "id": 128,
+    "name": "Macau S.A.R.",
+    "es": "Macao",
+    "iso3": "MAC",
+    "iso2": "MO",
+    "currency": "MOP",
+    "emoji": "🇲🇴"
+  },
+  {
+    "id": 129,
+    "name": "Macedonia",
+    "es": "Macedonia",
+    "iso3": "MKD",
+    "iso2": "MK",
+    "currency": "MKD",
+    "emoji": "🇲🇰"
+  },
+  {
+    "id": 130,
+    "name": "Madagascar",
+    "es": "Madagascar",
+    "iso3": "MDG",
+    "iso2": "MG",
+    "currency": "MGA",
+    "emoji": "🇲🇬"
+  },
+  {
+    "id": 131,
+    "name": "Malawi",
+    "es": "Malawi",
+    "iso3": "MWI",
+    "iso2": "MW",
+    "currency": "MWK",
+    "emoji": "🇲🇼"
+  },
+  {
+    "id": 132,
+    "name": "Malaysia",
+    "es": "Malasia",
+    "iso3": "MYS",
+    "iso2": "MY",
+    "currency": "MYR",
+    "emoji": "🇲🇾"
+  },
+  {
+    "id": 133,
+    "name": "Maldives",
+    "es": "Maldivas",
+    "iso3": "MDV",
+    "iso2": "MV",
+    "currency": "MVR",
+    "emoji": "🇲🇻"
+  },
+  {
+    "id": 134,
+    "name": "Mali",
+    "es": "Mali",
+    "iso3": "MLI",
+    "iso2": "ML",
+    "currency": "XOF",
+    "emoji": "🇲🇱"
+  },
+  {
+    "id": 135,
+    "name": "Malta",
+    "es": "Malta",
+    "iso3": "MLT",
+    "iso2": "MT",
+    "currency": "EUR",
+    "emoji": "🇲🇹"
+  },
+  {
+    "id": 136,
+    "name": "Man (Isle of)",
+    "es": "Isla de Man",
+    "iso3": "IMN",
+    "iso2": "IM",
+    "currency": "GBP",
+    "emoji": "🇮🇲"
+  },
+  {
+    "id": 137,
+    "name": "Marshall Islands",
+    "es": "Islas Marshall",
+    "iso3": "MHL",
+    "iso2": "MH",
+    "currency": "USD",
+    "emoji": "🇲🇭"
+  },
+  {
+    "id": 138,
+    "name": "Martinique",
+    "es": "Martinica",
+    "iso3": "MTQ",
+    "iso2": "MQ",
+    "currency": "EUR",
+    "emoji": "🇲🇶"
+  },
+  {
+    "id": 139,
+    "name": "Mauritania",
+    "es": "Mauritania",
+    "iso3": "MRT",
+    "iso2": "MR",
+    "currency": "MRO",
+    "emoji": "🇲🇷"
+  },
+  {
+    "id": 140,
+    "name": "Mauritius",
+    "es": "Mauricio",
+    "iso3": "MUS",
+    "iso2": "MU",
+    "currency": "MUR",
+    "emoji": "🇲🇺"
+  },
+  {
+    "id": 141,
+    "name": "Mayotte",
+    "es": "Mayotte",
+    "iso3": "MYT",
+    "iso2": "YT",
+    "currency": "EUR",
+    "emoji": "🇾🇹"
+  },
+  {
+    "id": 142,
+    "name": "Mexico",
+    "es": "México",
+    "iso3": "MEX",
+    "iso2": "MX",
+    "currency": "MXN",
+    "emoji": "🇲🇽"
+  },
+  {
+    "id": 143,
+    "name": "Micronesia",
+    "es": "Micronesia",
+    "iso3": "FSM",
+    "iso2": "FM",
+    "currency": "USD",
+    "emoji": "🇫🇲"
+  },
+  {
+    "id": 144,
+    "name": "Moldova",
+    "es": "Moldavia",
+    "iso3": "MDA",
+    "iso2": "MD",
+    "currency": "MDL",
+    "emoji": "🇲🇩"
+  },
+  {
+    "id": 145,
+    "name": "Monaco",
+    "es": "Mónaco",
+    "iso3": "MCO",
+    "iso2": "MC",
+    "currency": "EUR",
+    "emoji": "🇲🇨"
+  },
+  {
+    "id": 146,
+    "name": "Mongolia",
+    "es": "Mongolia",
+    "iso3": "MNG",
+    "iso2": "MN",
+    "currency": "MNT",
+    "emoji": "🇲🇳"
+  },
+  {
+    "id": 147,
+    "name": "Montenegro",
+    "es": "Montenegro",
+    "iso3": "MNE",
+    "iso2": "ME",
+    "currency": "EUR",
+    "emoji": "🇲🇪"
+  },
+  {
+    "id": 148,
+    "name": "Montserrat",
+    "es": "Montserrat",
+    "iso3": "MSR",
+    "iso2": "MS",
+    "currency": "XCD",
+    "emoji": "🇲🇸"
+  },
+  {
+    "id": 149,
+    "name": "Morocco",
+    "es": "Marruecos",
+    "iso3": "MAR",
+    "iso2": "MA",
+    "currency": "MAD",
+    "emoji": "🇲🇦"
+  },
+  {
+    "id": 150,
+    "name": "Mozambique",
+    "es": "Mozambique",
+    "iso3": "MOZ",
+    "iso2": "MZ",
+    "currency": "MZN",
+    "emoji": "🇲🇿"
+  },
+  {
+    "id": 151,
+    "name": "Myanmar",
+    "es": "Myanmar",
+    "iso3": "MMR",
+    "iso2": "MM",
+    "currency": "MMK",
+    "emoji": "🇲🇲"
+  },
+  {
+    "id": 152,
+    "name": "Namibia",
+    "es": "Namibia",
+    "iso3": "NAM",
+    "iso2": "NA",
+    "currency": "NAD",
+    "emoji": "🇳🇦"
+  },
+  {
+    "id": 153,
+    "name": "Nauru",
+    "es": "Nauru",
+    "iso3": "NRU",
+    "iso2": "NR",
+    "currency": "AUD",
+    "emoji": "🇳🇷"
+  },
+  {
+    "id": 154,
+    "name": "Nepal",
+    "es": "Nepal",
+    "iso3": "NPL",
+    "iso2": "NP",
+    "currency": "NPR",
+    "emoji": "🇳🇵"
+  },
+  {
+    "id": 156,
+    "name": "Netherlands",
+    "es": "Países Bajos",
+    "iso3": "NLD",
+    "iso2": "NL",
+    "currency": "EUR",
+    "emoji": "🇳🇱"
+  },
+  {
+    "id": 157,
+    "name": "New Caledonia",
+    "es": "Nueva Caledonia",
+    "iso3": "NCL",
+    "iso2": "NC",
+    "currency": "XPF",
+    "emoji": "🇳🇨"
+  },
+  {
+    "id": 158,
+    "name": "New Zealand",
+    "es": "Nueva Zelanda",
+    "iso3": "NZL",
+    "iso2": "NZ",
+    "currency": "NZD",
+    "emoji": "🇳🇿"
+  },
+  {
+    "id": 159,
+    "name": "Nicaragua",
+    "es": "Nicaragua",
+    "iso3": "NIC",
+    "iso2": "NI",
+    "currency": "NIO",
+    "emoji": "🇳🇮"
+  },
+  {
+    "id": 160,
+    "name": "Niger",
+    "es": "Níger",
+    "iso3": "NER",
+    "iso2": "NE",
+    "currency": "XOF",
+    "emoji": "🇳🇪"
+  },
+  {
+    "id": 161,
+    "name": "Nigeria",
+    "es": "Nigeria",
+    "iso3": "NGA",
+    "iso2": "NG",
+    "currency": "NGN",
+    "emoji": "🇳🇬"
+  },
+  {
+    "id": 162,
+    "name": "Niue",
+    "es": "Niue",
+    "iso3": "NIU",
+    "iso2": "NU",
+    "currency": "NZD",
+    "emoji": "🇳🇺"
+  },
+  {
+    "id": 163,
+    "name": "Norfolk Island",
+    "es": "Isla de Norfolk",
+    "iso3": "NFK",
+    "iso2": "NF",
+    "currency": "AUD",
+    "emoji": "🇳🇫"
+  },
+  {
+    "id": 115,
+    "name": "North Korea",
+    "es": "Corea del Norte",
+    "iso3": "PRK",
+    "iso2": "KP",
+    "currency": "KPW",
+    "emoji": "🇰🇵"
+  },
+  {
+    "id": 164,
+    "name": "Northern Mariana Islands",
+    "es": "Islas Marianas del Norte",
+    "iso3": "MNP",
+    "iso2": "MP",
+    "currency": "USD",
+    "emoji": "🇲🇵"
+  },
+  {
+    "id": 165,
+    "name": "Norway",
+    "es": "Noruega",
+    "iso3": "NOR",
+    "iso2": "NO",
+    "currency": "NOK",
+    "emoji": "🇳🇴"
+  },
+  {
+    "id": 166,
+    "name": "Oman",
+    "es": "Omán",
+    "iso3": "OMN",
+    "iso2": "OM",
+    "currency": "OMR",
+    "emoji": "🇴🇲"
+  },
+  {
+    "id": 167,
+    "name": "Pakistan",
+    "es": "Pakistán",
+    "iso3": "PAK",
+    "iso2": "PK",
+    "currency": "PKR",
+    "emoji": "🇵🇰"
+  },
+  {
+    "id": 168,
+    "name": "Palau",
+    "es": "Palau",
+    "iso3": "PLW",
+    "iso2": "PW",
+    "currency": "USD",
+    "emoji": "🇵🇼"
+  },
+  {
+    "id": 169,
+    "name": "Palestinian Territory Occupied",
+    "es": "Palestina",
+    "iso3": "PSE",
+    "iso2": "PS",
+    "currency": "ILS",
+    "emoji": "🇵🇸"
+  },
+  {
+    "id": 170,
+    "name": "Panama",
+    "es": "Panamá",
+    "iso3": "PAN",
+    "iso2": "PA",
+    "currency": "PAB",
+    "emoji": "🇵🇦"
+  },
+  {
+    "id": 171,
+    "name": "Papua new Guinea",
+    "es": "Papúa Nueva Guinea",
+    "iso3": "PNG",
+    "iso2": "PG",
+    "currency": "PGK",
+    "emoji": "🇵🇬"
+  },
+  {
+    "id": 172,
+    "name": "Paraguay",
+    "es": "Paraguay",
+    "iso3": "PRY",
+    "iso2": "PY",
+    "currency": "PYG",
+    "emoji": "🇵🇾"
+  },
+  {
+    "id": 173,
+    "name": "Peru",
+    "es": "Perú",
+    "iso3": "PER",
+    "iso2": "PE",
+    "currency": "PEN",
+    "emoji": "🇵🇪"
+  },
+  {
+    "id": 174,
+    "name": "Philippines",
+    "es": "Filipinas",
+    "iso3": "PHL",
+    "iso2": "PH",
+    "currency": "PHP",
+    "emoji": "🇵🇭"
+  },
+  {
+    "id": 175,
+    "name": "Pitcairn Island",
+    "es": "Islas Pitcairn",
+    "iso3": "PCN",
+    "iso2": "PN",
+    "currency": "NZD",
+    "emoji": "🇵🇳"
+  },
+  {
+    "id": 176,
+    "name": "Poland",
+    "es": "Polonia",
+    "iso3": "POL",
+    "iso2": "PL",
+    "currency": "PLN",
+    "emoji": "🇵🇱"
+  },
+  {
+    "id": 177,
+    "name": "Portugal",
+    "es": "Portugal",
+    "iso3": "PRT",
+    "iso2": "PT",
+    "currency": "EUR",
+    "emoji": "🇵🇹"
+  },
+  {
+    "id": 178,
+    "name": "Puerto Rico",
+    "es": "Puerto Rico",
+    "iso3": "PRI",
+    "iso2": "PR",
+    "currency": "USD",
+    "emoji": "🇵🇷"
+  },
+  {
+    "id": 179,
+    "name": "Qatar",
+    "es": "Catar",
+    "iso3": "QAT",
+    "iso2": "QA",
+    "currency": "QAR",
+    "emoji": "🇶🇦"
+  },
+  {
+    "id": 180,
+    "name": "Reunion",
+    "es": "Reunión",
+    "iso3": "REU",
+    "iso2": "RE",
+    "currency": "EUR",
+    "emoji": "🇷🇪"
+  },
+  {
+    "id": 181,
+    "name": "Romania",
+    "es": "Rumania",
+    "iso3": "ROU",
+    "iso2": "RO",
+    "currency": "RON",
+    "emoji": "🇷🇴"
+  },
+  {
+    "id": 182,
+    "name": "Russia",
+    "es": "Rusia",
+    "iso3": "RUS",
+    "iso2": "RU",
+    "currency": "RUB",
+    "emoji": "🇷🇺"
+  },
+  {
+    "id": 183,
+    "name": "Rwanda",
+    "es": "Ruanda",
+    "iso3": "RWA",
+    "iso2": "RW",
+    "currency": "RWF",
+    "emoji": "🇷🇼"
+  },
+  {
+    "id": 184,
+    "name": "Saint Helena",
+    "es": "Santa Helena",
+    "iso3": "SHN",
+    "iso2": "SH",
+    "currency": "SHP",
+    "emoji": "🇸🇭"
+  },
+  {
+    "id": 185,
+    "name": "Saint Kitts And Nevis",
+    "es": "San Cristóbal y Nieves",
+    "iso3": "KNA",
+    "iso2": "KN",
+    "currency": "XCD",
+    "emoji": "🇰🇳"
+  },
+  {
+    "id": 186,
+    "name": "Saint Lucia",
+    "es": "Santa Lucía",
+    "iso3": "LCA",
+    "iso2": "LC",
+    "currency": "XCD",
+    "emoji": "🇱🇨"
+  },
+  {
+    "id": 187,
+    "name": "Saint Pierre and Miquelon",
+    "es": "San Pedro y Miquelón",
+    "iso3": "SPM",
+    "iso2": "PM",
+    "currency": "EUR",
+    "emoji": "🇵🇲"
+  },
+  {
+    "id": 188,
+    "name": "Saint Vincent And The Grenadines",
+    "es": "San Vicente y Granadinas",
+    "iso3": "VCT",
+    "iso2": "VC",
+    "currency": "XCD",
+    "emoji": "🇻🇨"
+  },
+  {
+    "id": 189,
+    "name": "Saint-Barthelemy",
+    "es": "San Bartolomé",
+    "iso3": "BLM",
+    "iso2": "BL",
+    "currency": "EUR",
+    "emoji": "🇧🇱"
+  },
+  {
+    "id": 190,
+    "name": "Saint-Martin (French part)",
+    "es": "Saint Martin",
+    "iso3": "MAF",
+    "iso2": "MF",
+    "currency": "EUR",
+    "emoji": "🇲🇫"
+  },
+  {
+    "id": 191,
+    "name": "Samoa",
+    "es": "Samoa",
+    "iso3": "WSM",
+    "iso2": "WS",
+    "currency": "WST",
+    "emoji": "🇼🇸"
+  },
+  {
+    "id": 192,
+    "name": "San Marino",
+    "es": "San Marino",
+    "iso3": "SMR",
+    "iso2": "SM",
+    "currency": "EUR",
+    "emoji": "🇸🇲"
+  },
+  {
+    "id": 193,
+    "name": "Sao Tome and Principe",
+    "es": "Santo Tomé y Príncipe",
+    "iso3": "STP",
+    "iso2": "ST",
+    "currency": "STD",
+    "emoji": "🇸🇹"
+  },
+  {
+    "id": 194,
+    "name": "Saudi Arabia",
+    "es": "Arabia Saudí",
+    "iso3": "SAU",
+    "iso2": "SA",
+    "currency": "SAR",
+    "emoji": "🇸🇦"
+  },
+  {
+    "id": 195,
+    "name": "Senegal",
+    "es": "Senegal",
+    "iso3": "SEN",
+    "iso2": "SN",
+    "currency": "XOF",
+    "emoji": "🇸🇳"
+  },
+  {
+    "id": 196,
+    "name": "Serbia",
+    "es": "Serbia",
+    "iso3": "SRB",
+    "iso2": "RS",
+    "currency": "RSD",
+    "emoji": "🇷🇸"
+  },
+  {
+    "id": 197,
+    "name": "Seychelles",
+    "es": "Seychelles",
+    "iso3": "SYC",
+    "iso2": "SC",
+    "currency": "SCR",
+    "emoji": "🇸🇨"
+  },
+  {
+    "id": 198,
+    "name": "Sierra Leone",
+    "es": "Sierra Leone",
+    "iso3": "SLE",
+    "iso2": "SL",
+    "currency": "SLL",
+    "emoji": "🇸🇱"
+  },
+  {
+    "id": 199,
+    "name": "Singapore",
+    "es": "Singapur",
+    "iso3": "SGP",
+    "iso2": "SG",
+    "currency": "SGD",
+    "emoji": "🇸🇬"
+  },
+  {
+    "id": 250,
+    "name": "Sint Maarten (Dutch part)",
+    "es" : "Sint Maarten",
+    "iso3": "SXM",
+    "iso2": "SX",
+    "currency": "ANG",
+    "emoji": "🇸🇽"
+  },
+  {
+    "id": 200,
+    "name": "Slovakia",
+    "es": "República Eslovaca",
+    "iso3": "SVK",
+    "iso2": "SK",
+    "currency": "EUR",
+    "emoji": "🇸🇰"
+  },
+  {
+    "id": 201,
+    "name": "Slovenia",
+    "es": "Eslovenia",
+    "iso3": "SVN",
+    "iso2": "SI",
+    "currency": "EUR",
+    "emoji": "🇸🇮"
+  },
+  {
+    "id": 202,
+    "name": "Solomon Islands",
+    "es": "Islas Salomón",
+    "iso3": "SLB",
+    "iso2": "SB",
+    "currency": "SBD",
+    "emoji": "🇸🇧"
+  },
+  {
+    "id": 203,
+    "name": "Somalia",
+    "es": "Somalia",
+    "iso3": "SOM",
+    "iso2": "SO",
+    "currency": "SOS",
+    "emoji": "🇸🇴"
+  },
+  {
+    "id": 204,
+    "name": "South Africa",
+    "es": "República de Sudáfrica",
+    "iso3": "ZAF",
+    "iso2": "ZA",
+    "currency": "ZAR",
+    "emoji": "🇿🇦"
+  },
+  {
+    "id": 205,
+    "name": "South Georgia",
+    "es": "Islas Georgias del Sur y Sandwich del Sur",
+    "iso3": "SGS",
+    "iso2": "GS",
+    "currency": "GBP",
+    "emoji": "🇬🇸"
+  },
+  {
+    "id": 116,
+    "name": "South Korea",
+    "es": "Corea del Sur",
+    "iso3": "KOR",
+    "iso2": "KR",
+    "currency": "KRW",
+    "emoji": "🇰🇷"
+  },
+  {
+    "id": 206,
+    "name": "South Sudan",
+    "es": "Sudán del Sur",
+    "iso3": "SSD",
+    "iso2": "SS",
+    "currency": "SSP",
+    "emoji": "🇸🇸"
+  },
+  {
+    "id": 207,
+    "name": "Spain",
+    "es": "España",
+    "iso3": "ESP",
+    "iso2": "ES",
+    "currency": "EUR",
+    "emoji": "🇪🇸"
+  },
+  {
+    "id": 208,
+    "name": "Sri Lanka",
+    "es": "Sri Lanka",
+    "iso3": "LKA",
+    "iso2": "LK",
+    "currency": "LKR",
+    "emoji": "🇱🇰"
+  },
+  {
+    "id": 209,
+    "name": "Sudan",
+    "es": "Sudán",
+    "iso3": "SDN",
+    "iso2": "SD",
+    "currency": "SDG",
+    "emoji": "🇸🇩"
+  },
+  {
+    "id": 210,
+    "name": "Suriname",
+    "es": "Surinam",
+    "iso3": "SUR",
+    "iso2": "SR",
+    "currency": "SRD",
+    "emoji": "🇸🇷"
+  },
+  {
+    "id": 211,
+    "name": "Svalbard And Jan Mayen Islands",
+    "es": "Islas Svalbard y Jan Mayen",
+    "iso3": "SJM",
+    "iso2": "SJ",
+    "currency": "NOK",
+    "emoji": "🇸🇯"
+  },
+  {
+    "id": 212,
+    "name": "Swaziland",
+    "es": "Suazilandia",
+    "iso3": "SWZ",
+    "iso2": "SZ",
+    "currency": "SZL",
+    "emoji": "🇸🇿"
+  },
+  {
+    "id": 213,
+    "name": "Sweden",
+    "es": "Suecia",
+    "iso3": "SWE",
+    "iso2": "SE",
+    "currency": "SEK",
+    "emoji": "🇸🇪"
+  },
+  {
+    "id": 214,
+    "name": "Switzerland",
+    "es": "Suiza",
+    "iso3": "CHE",
+    "iso2": "CH",
+    "currency": "CHF",
+    "emoji": "🇨🇭"
+  },
+  {
+    "id": 215,
+    "name": "Syria",
+    "es": "Siria",
+    "iso3": "SYR",
+    "iso2": "SY",
+    "currency": "SYP",
+    "emoji": "🇸🇾"
+  },
+  {
+    "id": 216,
+    "name": "Taiwan",
+    "es": "Taiwán",
+    "iso3": "TWN",
+    "iso2": "TW",
+    "currency": "TWD",
+    "emoji": "🇹🇼"
+  },
+  {
+    "id": 217,
+    "name": "Tajikistan",
+    "es": "Tayikistán",
+    "iso3": "TJK",
+    "iso2": "TJ",
+    "currency": "TJS",
+    "emoji": "🇹🇯"
+  },
+  {
+    "id": 218,
+    "name": "Tanzania",
+    "es": "Tanzania",
+    "iso3": "TZA",
+    "iso2": "TZ",
+    "currency": "TZS",
+    "emoji": "🇹🇿"
+  },
+  {
+    "id": 219,
+    "name": "Thailand",
+    "es": "Tailandia",
+    "iso3": "THA",
+    "iso2": "TH",
+    "currency": "THB",
+    "emoji": "🇹🇭"
+  },
+  {
+    "id": 17,
+    "name": "The Bahamas",
+    "es": "Bahamas",
+    "iso3": "BHS",
+    "iso2": "BS",
+    "currency": "BSD",
+    "emoji": "🇧🇸"
+  },
+  {
+    "id": 220,
+    "name": "Togo",
+    "es": "Togo",
+    "iso3": "TGO",
+    "iso2": "TG",
+    "currency": "XOF",
+    "emoji": "🇹🇬"
+  },
+  {
+    "id": 221,
+    "name": "Tokelau",
+    "es": "Islas Tokelau",
+    "iso3": "TKL",
+    "iso2": "TK",
+    "currency": "NZD",
+    "emoji": "🇹🇰"
+  },
+  {
+    "id": 222,
+    "name": "Tonga",
+    "es": "Tonga",
+    "iso3": "TON",
+    "iso2": "TO",
+    "currency": "TOP",
+    "emoji": "🇹🇴"
+  },
+  {
+    "id": 223,
+    "name": "Trinidad And Tobago",
+    "es": "Trinidad y Tobago",
+    "iso3": "TTO",
+    "iso2": "TT",
+    "currency": "TTD",
+    "emoji": "🇹🇹"
+  },
+  {
+    "id": 224,
+    "name": "Tunisia",
+    "es": "Túnez",
+    "iso3": "TUN",
+    "iso2": "TN",
+    "currency": "TND",
+    "emoji": "🇹🇳"
+  },
+  {
+    "id": 225,
+    "name": "Turkey",
+    "es": "Turquía",
+    "iso3": "TUR",
+    "iso2": "TR",
+    "currency": "TRY",
+    "emoji": "🇹🇷"
+  },
+  {
+    "id": 226,
+    "name": "Turkmenistan",
+    "es": "Turkmenistán",
+    "iso3": "TKM",
+    "iso2": "TM",
+    "currency": "TMT",
+    "emoji": "🇹🇲"
+  },
+  {
+    "id": 227,
+    "name": "Turks And Caicos Islands",
+    "es": "Islas Turks y Caicos",
+    "iso3": "TCA",
+    "iso2": "TC",
+    "currency": "USD",
+    "emoji": "🇹🇨"
+  },
+  {
+    "id": 228,
+    "name": "Tuvalu",
+    "es": "Tuvalu",
+    "iso3": "TUV",
+    "iso2": "TV",
+    "currency": "AUD",
+    "emoji": "🇹🇻"
+  },
+  {
+    "id": 229,
+    "name": "Uganda",
+    "es": "Uganda",
+    "iso3": "UGA",
+    "iso2": "UG",
+    "currency": "UGX",
+    "emoji": "🇺🇬"
+  },
+  {
+    "id": 230,
+    "name": "Ukraine",
+    "es": "Ucrania",
+    "iso3": "UKR",
+    "iso2": "UA",
+    "currency": "UAH",
+    "emoji": "🇺🇦"
+  },
+  {
+    "id": 231,
+    "name": "United Arab Emirates",
+    "es": "Emiratos Árabes Unidos",
+    "iso3": "ARE",
+    "iso2": "AE",
+    "currency": "AED",
+    "emoji": "🇦🇪"
+  },
+  {
+    "id": 232,
+    "name": "United Kingdom",
+    "es": "Reino Unido",
+    "iso3": "GBR",
+    "iso2": "GB",
+    "currency": "GBP",
+    "emoji": "🇬🇧"
+  },
+  {
+    "id": 233,
+    "name": "United States",
+    "es": "Estados Unidos",
+    "iso3": "USA",
+    "iso2": "US",
+    "currency": "USD",
+    "emoji": "🇺🇸"
+  },
+  {
+    "id": 234,
+    "name": "United States Minor Outlying Islands",
+    "es": "Islas Ultramarinas Menores de Estados Unidos",
+    "iso3": "UMI",
+    "iso2": "UM",
+    "currency": "USD",
+    "emoji": "🇺🇲"
+  },
+  {
+    "id": 235,
+    "name": "Uruguay",
+    "es": "Uruguay",
+    "iso3": "URY",
+    "iso2": "UY",
+    "currency": "UYU",
+    "emoji": "🇺🇾"
+  },
+  {
+    "id": 236,
+    "name": "Uzbekistan",
+    "es": "Uzbekistán",
+    "iso3": "UZB",
+    "iso2": "UZ",
+    "currency": "UZS",
+    "emoji": "🇺🇿"
+  },
+  {
+    "id": 237,
+    "name": "Vanuatu",
+    "es": "Vanuatu",
+    "iso3": "VUT",
+    "iso2": "VU",
+    "currency": "VUV",
+    "emoji": "🇻🇺"
+  },
+  {
+    "id": 238,
+    "name": "Vatican City State (Holy See)",
+    "es": "Santa Sede",
+    "iso3": "VAT",
+    "iso2": "VA",
+    "currency": "EUR",
+    "emoji": "🇻🇦"
+  },
+  {
+    "id": 239,
+    "name": "Venezuela",
+    "es": "Venezuela",
+    "iso3": "VEN",
+    "iso2": "VE",
+    "currency": "VEF",
+    "emoji": "🇻🇪"
+  },
+  {
+    "id": 240,
+    "name": "Vietnam",
+    "es": "Vietnam",
+    "iso3": "VNM",
+    "iso2": "VN",
+    "currency": "VND",
+    "emoji": "🇻🇳"
+  },
+  {
+    "id": 241,
+    "name": "Virgin Islands (British)",
+    "es": "Islas Vírgenes del Reino Unido",
+    "iso3": "VGB",
+    "iso2": "VG",
+    "currency": "USD",
+    "emoji": "🇻🇬"
+  },
+  {
+    "id": 242,
+    "name": "Virgin Islands (US)",
+    "es": "Islas Vírgenes de los Estados Unidos",
+    "iso3": "VIR",
+    "iso2": "VI",
+    "currency": "USD",
+    "emoji": "🇻🇮"
+  },
+  {
+    "id": 243,
+    "name": "Wallis And Futuna Islands",
+    "es": "Wallis y Futuna",
+    "iso3": "WLF",
+    "iso2": "WF",
+    "currency": "XPF",
+    "emoji": "🇼🇫"
+  },
+  {
+    "id": 244,
+    "name": "Western Sahara",
+    "es": "Sahara Occidental",
+    "iso3": "ESH",
+    "iso2": "EH",
+    "currency": "MAD",
+    "emoji": "🇪🇭"
+  },
+  {
+    "id": 245,
+    "name": "Yemen",
+    "es": "Yemen",
+    "iso3": "YEM",
+    "iso2": "YE",
+    "currency": "YER",
+    "emoji": "🇾🇪"
+  },
+  {
+    "id": 246,
+    "name": "Zambia",
+    "es": "Zambia",
+    "iso3": "ZMB",
+    "iso2": "ZM",
+    "currency": "ZMW",
+    "emoji": "🇿🇲"
+  },
+  {
+    "id": 247,
+    "name": "Zimbabwe",
+    "es": "Zimbabue",
+    "iso3": "ZWE",
+    "iso2": "ZW",
+    "currency": "ZWL",
+    "emoji": "🇿🇼"
+  }
+]

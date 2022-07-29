@@ -26,11 +26,18 @@ class WarehouseRepository implements WarehouseRepositoryInterface
         return Warehouse::whereKey($id)->first();
     }
 
-    public function createWarehouse(array $params)
+    public function storeWarehouse(array $params): Warehouse
     {
+        return Warehouse::create($params);
     }
 
-    public function updateWarehouse(string $id, array $params)
+    public function updateWarehouse(string $id, array $params): bool
     {
+        return Warehouse::whereKey($id)->update($params);
+    }
+
+    public function deleteWarehouse(string $id): bool
+    {
+        return Warehouse::whereKey($id)->delete();
     }
 }

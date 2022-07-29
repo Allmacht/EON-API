@@ -26,6 +26,7 @@ return new class extends Migration
             $table->string('int_number')->nullable();
             $table->integer('zipcode');
             $table->string('phone')->nullable();
+            $table->text('map')->nullable();
 
             $table->softDeletes();
             $table->timestamps();

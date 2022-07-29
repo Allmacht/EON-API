@@ -11,8 +11,8 @@ class Warehouse extends Model
     use HasFactory, Uuid;
 
     protected $fillable = [
-        'slug',
         'name',
+        'slug',
         'country',
         'state',
         'city',
@@ -22,5 +22,6 @@ class Warehouse extends Model
         'int_number',
         'zipcode',
         'phone',
+        'map',
     ];
 }

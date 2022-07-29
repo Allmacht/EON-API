@@ -17,7 +17,7 @@ return new class extends Migration
         Schema::create('clients', function (Blueprint $table) {
             $table->uuid('id')->primary();
             $table->string('slug')->unique();
-            $table->string('name');
+            $table->string('name')->index();
             $table->string('business_name');
             $table->string('country');
             $table->string('state');

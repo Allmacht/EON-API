@@ -44,6 +44,14 @@ return [
             'throw' => false,
         ],
 
+        'shipping_services' => [
+            'driver' => 'local',
+            'root' => storage_path('app/public/shipping_services'),
+            'url' => env('APP_URL').'/storage/shipping_services',
+            'visibility' => 'public',
+            'throw' => false,
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),

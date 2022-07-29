@@ -10,7 +10,9 @@ interface WarehouseRepositoryInterface
 
     public function getWarehouseById(string $id);
 
-    public function createWarehouse(array $params);
+    public function storeWarehouse(array $params);
 
     public function updateWarehouse(string $id, array $params);
+
+    public function deleteWarehouse(string $id);
 }
