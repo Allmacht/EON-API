@@ -26,7 +26,6 @@ class LoginRequest extends FormRequest
         return [
             'email' => 'required|string|email|exists:users',
             'password' => 'required|string',
-            'device_name' => 'required|string', // añadir tabla de devices, para validar el dispositivo desde donde se realiza el request
         ];
     }
 }

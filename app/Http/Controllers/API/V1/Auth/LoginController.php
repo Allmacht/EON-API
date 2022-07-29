@@ -27,12 +27,12 @@ class LoginController extends Controller
 
         $user->tokens()->delete();
 
-        $token = $user->createToken($request->device_name)->plainTextToken;
+        $token = $user->createToken('EON-API-ACCESS-TOKEN')->plainTextToken;
 
         return response()->json([
             'access_token' => $token,
+            'expires_in' => 21600,
             'token_type' => 'Bearer',
-            'expires_in' => 899,
         ]);
     }
 }

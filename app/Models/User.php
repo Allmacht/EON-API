@@ -8,7 +8,9 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Str;
 use Laravel\Sanctum\HasApiTokens;
+use Laravel\Sanctum\NewAccessToken;
 
 class User extends Authenticatable
 {
@@ -48,6 +50,24 @@ class User extends Authenticatable
     protected $appends = [
         'role_names',
     ];
+
+    /**
+     * the token generation method is overridden, to increase the size of the token
+     * 
+     * @param string $name
+     * @param array<string> $abilities
+     * @return Laravel\Sanctum\NewAccessToken
+    */
+    public function createToken(string $name, array $abilities = ['*']) : NewAccessToken
+    {
+        $token = $this->tokens()->create([
+            'name' => $name,
+            'token' => hash('sha256', $plainTextToken = Str::random(1400)),
+            'abilities' => $abilities,
+        ]);
+
+        return new NewAccessToken($token, $token->getKey().'|'.$plainTextToken);
+    }
 
     public function setPasswordAttribute($value): void
     {

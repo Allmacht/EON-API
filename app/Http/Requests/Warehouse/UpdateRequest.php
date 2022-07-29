@@ -2,6 +2,7 @@
 
 namespace App\Http\Requests\Warehouse;
 
+use App\Rules\CountryExists;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Str;
 use Illuminate\Validation\Rule;
@@ -44,7 +45,7 @@ class UpdateRequest extends FormRequest
             'warehouse' => 'required|string|uuid|exists:warehouses,id',
             'name' => ['required', 'string', Rule::unique('warehouses')->ignore($this->warehouse)],
             'slug' => ['required', 'string', Rule::unique('warehouses')->ignore($this->warehouse)],
-            'country' => 'required|string',
+            'country' => ['required', 'string', new CountryExists],
             'state' => 'required|string',
             'neighborhood' => 'required|string',
             'street' => 'required|string',
