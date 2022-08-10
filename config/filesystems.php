@@ -47,7 +47,7 @@ return [
         'shipping_services' => [
             'driver' => 'local',
             'root' => storage_path('app/public/shipping_services'),
-            'url' => env('APP_URL').'/storage/shipping_services',
+            'url' => env('APP_URL').'/storage/app/public/shipping_services',
             'visibility' => 'public',
             'throw' => false,
         ],
@@ -78,7 +78,7 @@ return [
     */
 
     'links' => [
-        public_path('storage') => storage_path('app/public'),
+        public_path('storage') => storage_path('app/'),
     ],
 
 ];

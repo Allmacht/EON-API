@@ -16,7 +16,8 @@ class WarehouseResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'name' => $this->name,
+            'name' => ucwords(strtolower($this->name)),
+            'acronym' => $this->acronym($this->name),
             'slug' => $this->slug,
             'country' => $this->country,
             'state' => $this->state,
@@ -32,5 +33,22 @@ class WarehouseResource extends JsonResource
             'created_at' => $this->created_at->format('M d, Y h:i A'),
             'updated_at' => $this->updated_at->format('M d, Y h:i A'),
         ];
+    }
+
+    /**
+     ** Starting from the name, an acronym is obtained
+     *
+     * @param  string  $text
+     * @return string
+     */
+    public function acronym($text): string
+    {
+        $arr = explode(' ', $text);
+
+        if (count($arr) === 1) {
+            return strtoupper(substr($arr[0], 0, 2));
+        }
+
+        return strtoupper(substr($arr[0], 0, 1).substr($arr[1], 0, 1));
     }
 }

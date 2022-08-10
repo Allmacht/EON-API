@@ -17,7 +17,7 @@ return new class extends Migration
     {
         Schema::create('shipping_services_per_warehouses', function (Blueprint $table) {
             $table->id();
-            $table->text('_resource_state')->index();
+            $table->string('_resource_state')->index();
             $table->foreignIdFor(ShippingService::class)->constrained()->cascadeOnDelete();
             $table->foreignIdFor(Warehouse::class)->constrained()->cascadeOnDelete();
             $table->enum('state', ['STAGE', 'PRODUCTION'])->default('STAGE');
@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('file_extension');
             $table->json('endpoints');
             $table->json('credentials');
-            $table->timestamp('active');
+            $table->timestamp('active')->default(now());
             $table->timestamps();
             $table->softDeletes();
         });

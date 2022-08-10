@@ -20,7 +20,7 @@ class UserController extends Controller
     /**
      * return the logged in user.
      *
-     * @param  Illuminate\Http\Request
+     * @param  Illuminate\Http\Request  $request
      * @return App\Http\Resources\User\UserResource
      */
     public function user(Request $request): UserResource
@@ -33,7 +33,7 @@ class UserController extends Controller
     /**
      * update the user's current warehouse.
      *
-     * @param  App\Http\Requests\User\UpdateWarehouseRequest
+     * @param  App\Http\Requests\User\UpdateWarehouseRequest  $request
      * @return App\Http\Resources\User\UserResource
      */
     public function updateWarehouse(UpdateWarehouseRequest $request): UserResource

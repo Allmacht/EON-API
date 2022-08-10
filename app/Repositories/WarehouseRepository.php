@@ -23,7 +23,7 @@ class WarehouseRepository implements WarehouseRepositoryInterface
 
     public function getWarehouseById(string $id): Warehouse
     {
-        return Warehouse::whereKey($id)->first();
+        return Warehouse::whereKey($id)->sole();
     }
 
     public function storeWarehouse(array $params): Warehouse

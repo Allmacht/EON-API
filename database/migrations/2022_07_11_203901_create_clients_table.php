@@ -16,6 +16,7 @@ return new class extends Migration
     {
         Schema::create('clients', function (Blueprint $table) {
             $table->uuid('id')->primary();
+            $table->string('_resource_state')->index();
             $table->string('slug')->unique();
             $table->string('name')->index();
             $table->string('business_name');
@@ -29,19 +30,19 @@ return new class extends Migration
             $table->integer('zipcode');
             $table->string('phone');
             $table->string('service_phone')->nullable();
-            $table->string('rfc');
+            $table->string('rfc')->nullable();
             $table->string('rfe')->nullable();
             $table->string('idc')->nullable();
             $table->string('immex')->nullable();
-            $table->string('ecex')->nullable();
             $table->string('ssn')->nullable();
             $table->string('email');
             $table->string('email_notification')->nullable();
             $table->string('contact_name')->nullable();
             $table->string('notification_concept')->nullable();
             $table->string('logo')->nullable();
-            $table->string('rfid')->nullable();
-            $table->foreignIdFor(User::class)->constrained()->nullOnDelete();
+            $table->boolean('rfid')->default(false);
+            $table->enum('services', ['COD', 'REGULAR', 'BOTH'])->nullable();
+            $table->foreignIdFor(User::class)->nullable()->constrained()->nullOnDelete();
 
             $table->softDeletes();
             $table->timestamps();

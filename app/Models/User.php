@@ -53,12 +53,12 @@ class User extends Authenticatable
 
     /**
      * the token generation method is overridden, to increase the size of the token
-     * 
-     * @param string $name
-     * @param array<string> $abilities
+     *
+     * @param  string  $name
+     * @param  array<string>  $abilities
      * @return Laravel\Sanctum\NewAccessToken
-    */
-    public function createToken(string $name, array $abilities = ['*']) : NewAccessToken
+     */
+    public function createToken(string $name, array $abilities = ['*']): NewAccessToken
     {
         $token = $this->tokens()->create([
             'name' => $name,

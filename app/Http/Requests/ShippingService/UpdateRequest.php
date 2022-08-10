@@ -3,15 +3,28 @@
 namespace App\Http\Requests\ShippingService;
 
 use Illuminate\Foundation\Http\FormRequest;
+use Illuminate\Validation\Rule;
 
-class StoreRequest extends FormRequest
+class UpdateRequest extends FormRequest
 {
+    /**
+     * The shipping service's id is added for validation
+     *
+     * @return self
+     */
+    public function prepareForValidation(): self
+    {
+        return $this->merge([
+            'id' => $this->route()->shipping_service,
+        ]);
+    }
+
     /**
      * Determine if the user is authorized to make this request.
      *
      * @return bool
      */
-    public function authorize(): bool
+    public function authorize()
     {
         return $this->user()->hasAnyRole('super-admin', 'Administrator');
     }
@@ -21,10 +34,11 @@ class StoreRequest extends FormRequest
      *
      * @return array<string, mixed>
      */
-    public function rules(): array
+    public function rules()
     {
         return [
-            'name' => 'required|string|unique:shipping_services,name',
+            'id' => 'required|string|uuid|exists:shipping_services,id',
+            'name' => ['required', 'string', Rule::unique('shipping_services')->ignore($this->id)],
             'email' => 'nullable|string|email',
             'contact' => 'nullable|string',
             'phone' => 'nullable|string',
@@ -35,7 +49,7 @@ class StoreRequest extends FormRequest
     /**
      * The messages that are returned to the user are obtained
      *
-     * @return array<string>
+     * @return array<string, string>
      */
     public function messages(): array
     {
