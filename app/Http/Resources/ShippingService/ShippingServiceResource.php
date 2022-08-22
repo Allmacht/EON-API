@@ -21,6 +21,7 @@ class ShippingServiceResource extends JsonResource
             'contact' => $this->contact,
             'phone' => $this->phone,
             'image' => $this->image,
+            'credentials_template' => json_decode($this->credentials),
             'created_at' => $this->created_at->format('M d, Y h:i A'),
         ];
     }

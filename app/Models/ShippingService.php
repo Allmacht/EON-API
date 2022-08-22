@@ -16,6 +16,7 @@ class ShippingService extends Model
         'email',
         'contact',
         'phone',
+        'credentials',
         'image',
     ];
 }

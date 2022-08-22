@@ -19,8 +19,8 @@ class UserRepository implements UserRepositoryInterface
         return true;
     }
 
-    public function getUserByEmail(string $email): User
+    public function getUserByEmail(string $email): ?User
     {
-        return User::whereEmail($email)->first();
+        return User::whereEmail($email)->sole();
     }
 }

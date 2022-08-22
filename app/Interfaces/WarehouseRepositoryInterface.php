@@ -2,17 +2,20 @@
 
 namespace App\Interfaces;
 
+use App\Models\Warehouse;
+use Illuminate\Database\Eloquent\Collection;
+
 interface WarehouseRepositoryInterface
 {
-    public function getWarehouses();
+    public function getWarehouses(): Collection;
 
-    public function getMyWarehouses(string $id);
+    public function getMyWarehouses(string $id): Collection;
 
-    public function getWarehouseById(string $id);
+    public function getWarehouseById(string $id): ?Warehouse;
 
-    public function storeWarehouse(array $params);
+    public function storeWarehouse(array $params): Warehouse;
 
-    public function updateWarehouse(string $id, array $params);
+    public function updateWarehouse(string $id, array $params): bool;
 
-    public function deleteWarehouse(string $id);
+    public function deleteWarehouse(string $id): bool;
 }

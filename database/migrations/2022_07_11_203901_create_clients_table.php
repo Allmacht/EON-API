@@ -30,7 +30,6 @@ return new class extends Migration
             $table->integer('zipcode');
             $table->string('phone');
             $table->string('service_phone')->nullable();
-            $table->string('rfc')->nullable();
             $table->string('rfe')->nullable();
             $table->string('idc')->nullable();
             $table->string('immex')->nullable();
@@ -41,6 +40,7 @@ return new class extends Migration
             $table->string('notification_concept')->nullable();
             $table->string('logo')->nullable();
             $table->boolean('rfid')->default(false);
+            $table->string('access_token')->nullable();
             $table->enum('services', ['COD', 'REGULAR', 'BOTH'])->nullable();
             $table->foreignIdFor(User::class)->nullable()->constrained()->nullOnDelete();
 

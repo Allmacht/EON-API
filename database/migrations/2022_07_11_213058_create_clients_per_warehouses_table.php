@@ -17,7 +17,7 @@ return new class extends Migration
     {
         Schema::create('clients_per_warehouses', function (Blueprint $table) {
             $table->uuid('id')->primary();
-            $table->foreignIdFor(Warehouse::class)->constrained()->nullOnDelete();
+            $table->foreignIdFor(Warehouse::class)->constrained()->cascadeOnDelete();
             $table->foreignIdFor(Client::class)->constrained()->cascadeOnDelete();
 
             $table->softDeletes();

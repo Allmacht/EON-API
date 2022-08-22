@@ -2,11 +2,13 @@
 
 namespace App\Providers;
 
+use App\Interfaces\ClientPerWarehouseRepositoryInterface;
 use App\Interfaces\ClientRepositoryInterface;
 use App\Interfaces\ShippingServicePerWarehouseRepositoryInterface;
 use App\Interfaces\ShippingServiceRepositoryInterface;
 use App\Interfaces\UserRepositoryInterface;
 use App\Interfaces\WarehouseRepositoryInterface;
+use App\Repositories\ClientPerWarehouseRepository;
 use App\Repositories\ClientRepository;
 use App\Repositories\ShippingServicePerWarehouseRepository;
 use App\Repositories\ShippingServiceRepository;
@@ -28,6 +30,7 @@ class RepositoryServiceProvider extends ServiceProvider
         $this->app->bind(ShippingServiceRepositoryInterface::class, ShippingServiceRepository::class);
         $this->app->bind(ShippingServicePerWarehouseRepositoryInterface::class, ShippingServicePerWarehouseRepository::class);
         $this->app->bind(ClientRepositoryInterface::class, ClientRepository::class);
+        $this->app->bind(ClientPerWarehouseRepositoryInterface::class, ClientPerWarehouseRepository::class);
     }
 
     /**

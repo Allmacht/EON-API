@@ -24,7 +24,7 @@ class WarehouseController extends Controller
     }
 
     /**
-     * all warehouse records are obtained.
+     ** all warehouse records are obtained.
      *
      * @param  App\Http\Requests\Warehouse\GetWarehouseRequest  $request
      * @return App\Http\Resources\Warehouse\WarehouseCollection
@@ -37,7 +37,7 @@ class WarehouseController extends Controller
     }
 
     /**
-     * the warehouses to which the user making the request has access are obtained.
+     ** the warehouses to which the user making the request has access are obtained.
      *
      * @param  Illuminate\Http\Request  $request
      * @return App\Http\Resources\Warehouse\WarehouseCollection
@@ -50,7 +50,7 @@ class WarehouseController extends Controller
     }
 
     /**
-     * the record of a specific warehouse is obtained.
+     ** the record of a specific warehouse is obtained.
      *
      * @param  App\Http\Requests\Warehouse\GetWarehouseRequest  $request
      * @return App\Http\Resources\Warehouse\WarehouseResource
@@ -63,7 +63,7 @@ class WarehouseController extends Controller
     }
 
     /**
-     * A new warehouse is stored.
+     ** A new warehouse is stored.
      *
      * @param  App\Http\Requests\Warehouse\CreateRequest  $request
      * @return App\Http\Resources\Warehouse\WarehouseResource
@@ -76,7 +76,7 @@ class WarehouseController extends Controller
     }
 
     /**
-     * update warehouse information.
+     ** update warehouse information.
      *
      * @param  App\Http\Requests\Warehouse\UpdateRequest  $request
      * @return App\Http\Resources\Warehouse\WarehouseResource
@@ -91,7 +91,7 @@ class WarehouseController extends Controller
     }
 
     /**
-     * Delete a specific warehouse
+     ** Delete a specific warehouse
      *
      * @param  App\Http\Requests\Warehouse\DeleteRequest  $request
      * @return Illuminate\Http\JsonResponse
