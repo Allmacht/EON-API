@@ -42,6 +42,7 @@ class UpdateRequest extends FormRequest
             'email' => 'nullable|string|email',
             'contact' => 'nullable|string',
             'phone' => 'nullable|string',
+            'credentials' => 'required|json',
             'image' => 'nullable|image|max:5120',
         ];
     }
